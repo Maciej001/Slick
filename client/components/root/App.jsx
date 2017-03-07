@@ -1,12 +1,12 @@
 import React from 'react';
-import ChannelList from './ChannelList'
-import Channel from '../channel/Channel'
+import ChannelListWithData from './ChannelListWithData.jsx'
+import Channel from '../channel/Channel.jsx'
 
 class App extends React.Component {
   render() {
     return (
       <div className='App'>
-        <ChannelList />
+        <ChannelListWithData/>
         <Channel />
       </div>
     );

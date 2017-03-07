@@ -1,7 +1,9 @@
 import React from 'react';
 
 const ChannelMessageForm = () => (
-  <div className='channel-message-form'></div>
+  <div className='ChannelMessageForm'>
+    <input type="text"/>
+  </div>
 );
 
 export default ChannelMessageForm

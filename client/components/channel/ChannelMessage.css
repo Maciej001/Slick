@@ -1,0 +1,13 @@
+.ChannelMessage {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.ChannelMessage .message-author {
+  display: block;
+  font-weight: bold;
+}
+
+.ChannelMessage .message-text {
+  color: #555;
+}
