@@ -22,7 +22,6 @@ class ChannelsRepository {
     return Channels.find().fetch();
   }
   getChannel(name) {
-    console.log(name)
     return Channels.findOne({name})
   }
   addChannel(name) {

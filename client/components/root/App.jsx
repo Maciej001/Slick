@@ -7,7 +7,7 @@ class App extends React.Component {
     return (
       <div className='App'>
         <ChannelListWithData/>
-        <Channel />
+        {this.props.children}
       </div>
     );
   }

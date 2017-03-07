@@ -32,8 +32,8 @@ if (messages.length === 0 ) {
 }
 
 class MessagesRepository {
-  getMessages() {
-    return Messages.find().fetch();
+  getMessages(channel) {
+    return Messages.find({ channel }).fetch();
   }
   addMessage({channel, handle, text}) {
     return Messages.insert({ channel, handle, text });

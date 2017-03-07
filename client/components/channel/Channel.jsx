@@ -4,9 +4,10 @@ import ChannelMessageForm from './ChannelMessageForm.jsx'
 
 class Channel extends React.Component {
   render() {
+    console.log(`Channel props`, this.props);
     return (
       <div className='Channel'>
-        <ChannelMessagesWithData />
+        <ChannelMessagesWithData channel={this.props.params.channelName}/>
         <ChannelMessageForm />
       </div>
     )

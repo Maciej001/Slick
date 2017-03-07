@@ -9,8 +9,6 @@ class ChannelList extends React.Component {
 
     const channels = this.props.data.getChannels;
 
-    console.log(`channels`, channels);
-
     return (
       <div className='ChannelList'>
         <h1 className='header'>{`CHANNELS (${channels.length})`}</h1>
