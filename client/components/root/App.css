@@ -10,9 +10,10 @@
 }
 
 .App .ChannelList {
-  flex: 1 0 auto;
+  width: 10%;
+  min-width: 200px;
 }
 
 .App .Channel {
-  flex: 5 0 auto;
+  width: 90%;
 }

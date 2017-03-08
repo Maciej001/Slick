@@ -6,7 +6,7 @@ class App extends React.Component {
   render() {
     return (
       <div className='App'>
-        <ChannelListWithData/>
+        <ChannelListWithData channelName={this.props.params.channelName}/>
         {this.props.children}
       </div>
     );

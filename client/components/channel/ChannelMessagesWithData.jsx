@@ -6,7 +6,6 @@ import { ChannelMessage } from './ChannelMessage.jsx'
 class ChannelMessages extends Component {
 
   render() {
-    console.log(`this.props`, this.props);
     if ( this.props.data.loading )
       return <div>Loading...</div>
 
