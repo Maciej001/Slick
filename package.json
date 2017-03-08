@@ -19,6 +19,7 @@
     "react-router": "^3.0.2"
   },
   "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.23.0",
     "eslint": "^3.17.0",
     "eslint-config-react-app": "^0.6.0",
     "eslint-plugin-flowtype": "^2.30.0",
